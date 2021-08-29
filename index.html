@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b704daa075.js" crossorigin="anonymous"></script>
+</head>
+<body onload="showTableOnLoad()" >
+    <div class="lg">
+        <img class="Hlogos" src="logo.svg" alt="yellow logo">
+        <img class="Ylogo" src="Group 20399.svg" alt="logo1">
+        <h2 class="inv">Invoice List </h2>
+    </div>
+    <div class="Rectangle1">
+        <div class="btnn">
+            <button class="btn" id="b1">+  Add</button>
+            <button class="btn1" id="ed"> <i class="fas fa-pen"></i>Edit</button>
+            <button class="btn2" id="ed"><i class="fas fa-minus"></i> Delete</button>
+            <input class="search" type="text" placeholder="Search by Invoice Number" > 
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="Rectangle">
+        <table id="main-table">
+            <tr id="table_row">
+                <th class="th">Customer Name</th>
+                <th class="th">Customer #</th>
+                <th class="th">Invoice #</th>
+                <th class="th">Invoice Amount</th>
+                <th class="th">Due Date</th>
+                <th class="th">Predicted Payment date</th>
+                <th class="th">Notes</th>
+            </tr>
+        </table>
+
+        
+
+    </div>
+</body>
+<script src="app.json"></script>
+<script src="app.js"></script>
+</html>

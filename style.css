@@ -1,0 +1,155 @@
+body {
+top: 0px;
+left: 0px;
+width: 88%;
+height: 100%;
+background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.Hlogos{
+   position: relative;
+   top: 16px;
+   left: 540px;
+   width: 193px;
+   height: 50px;
+   background: transparent;
+   opacity: 1;
+}
+.Ylogo{
+    position: relative;
+    top: 16px;
+left: -185px;
+width: 255px;
+height: 52px;
+background: transparent url('img/Group 20399.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.inv{
+    color: white;
+    top: 100px;
+    left: 30px;
+    width: 141px;
+    height: 31px;
+    text-align: left;
+    margin-left: 2%;
+letter-spacing: 0px;
+opacity: 1;
+font-family: 'Ubuntu' ,sans-serif;
+}
+.Rectangle{
+    display: grid;
+
+    top: 161px;
+left: 30px;
+margin-left: 30px;
+width: 104%;
+margin-top: -5%;
+margin-bottom: 29px;
+padding-right: 14px;
+padding-top: 37px;
+padding-left: 19px;
+height: 60vh;
+background: #29424ecc 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+.btnn{
+    display: inline-block;
+}
+.btn{
+    top: 191px;
+left: 1136px;
+width: 72px;
+height: 29px;
+margin-left: 60%;
+border: 1px  #97A1A9;
+background: #97A1A9 0% 0% no-repeat padding-box;;
+border-radius: 10px;
+opacity: 1;
+cursor: pointer;
+}
+.btn1{
+    height: 29px;
+    width: 72px;
+    top: 191px;
+    left: 1136;
+    margin-left: auto;
+    border: 1px  #97A1A9;
+    background: #97A1A9 0% 0% no-repeat padding-box;;
+    border-radius: 10px;
+    opacity: 1;
+
+}
+.btn2{
+   height: 29px;
+    width: 72px;
+    top: 191px;
+    margin-left: auto;
+    border: 1px  #97A1A9;
+    margin-bottom: 10%;
+    background: #97A1A9 0% 0% no-repeat padding-box;;
+    border-radius: 10px;
+    opacity: 1; 
+}
+.search{
+    height: 29px;
+    width: 190px;
+    padding-left: 36px;
+    text-align: left;
+    top: 191px;
+    border: 1px  #97A1A9;
+    background: #97A1A9 0% 0% no-repeat padding-box;;
+    border-radius: 10px;
+    opacity: 1; 
+
+}
+.fas{
+    color: #58687E;
+    margin-left: -3px;
+    margin-right: 6px;
+    
+
+}
+.fa-search{
+   margin-right: 10px;
+   margin-left: -32px;
+}
+
+#main-table{
+    margin-bottom: 54%;
+    text-align: left;
+    top: 347px;
+    
+}
+.Rectangle1{
+    display: grid;
+
+    top: 161px;
+left: 30px;
+margin-left: 30px;
+width: 104%;
+text-align: left;
+margin-top: 36px;
+margin-bottom: 0vw;
+padding-right: 14px;
+padding-top: 37px;
+padding-left: 19px;
+height: 5vw;
+background: #263b47cc 0% 0% no-repeat  padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+
+#table_row{
+    top: 10%;
+left: 622px;
+width: 5vw;
+margin-bottom: 10%;
+height: -1vh;
+text-align: left;
+font: normal normal normal 18px/21px Ubuntu;
+letter-spacing: 0px;
+color: #97A1A9;
+opacity: 1;
+
+}
